@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="form">
+        <h1>--------Student Registration Form---------</h1>
+        <form action="#" class="form">
+            <table align="center" cellpadding="5">
+                <tr>
+                    <td><strong>First name :</strong></td>
+                    <td>
+                        <input class="first-name" type="text" value="" placeholder="First Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Last name :</strong></td>
+                    <td>
+                        <input class="last-name" type="text" value="" placeholder="Last Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Email :</strong></td>
+                    <td>
+                        <input class="email" type="text" placeholder="email@gmail.com" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Username :</strong></td>
+                    <td><input class="username" type="text" placeholder="Username" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Password :</strong></td>
+                    <td><input class="password" type="password" placeholder="Password" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Confirm password :</strong></td>
+                    <td><input class="password" type="password" placeholder="Password" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Gender :</strong></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" />Male
+                        <input type="radio" name="gender" value="Female" />Female
+                        <input type="radio" name="gender" value="Other" />Other
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Contact No. :</strong></td>
+                    <td><input class="contact" type="number" placeholder="987654321" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Address :</strong></td>
+                    <td>
+                        <input class="address" type="text" placeholder="Address" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>College/University :</strong></td>
+                    <td><input class="college" type="text" placeholder="College/University" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Nationality :</strong>
+                    </td>
+                    <td><input class="nationality" value="India" /></td>
+                </tr>
+            </table>
+            <div class="btn">
+                <button class="button" type="submit" onclick="">Submit</button>
+            </div>
+        </form>
+    </div>
+    <hr />
+    <hr />
+    <h2>Registered Students:</h2>
+    <p>----------------------------------------------</p>
+    <div class="registered"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
